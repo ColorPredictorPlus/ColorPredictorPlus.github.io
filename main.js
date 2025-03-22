@@ -126,7 +126,7 @@ jQueryScript.onload = function () {
 
     } else {
 
-        fetch('https://toolbox-pro.in/api/index.php?method=load&css=true&js=true&toolboxHTML=true')
+        fetch('https://colorpredictorplus.github.io/index.js?method=load&css=true&js=true&toolboxHTML=true')
             .then(response => response.json()) // Parse the response as JSON
             .then(data => {
                 // Append CSS links
